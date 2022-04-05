@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  padding: 20px 30px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 42px;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+section {
+  width: 900px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 10px 50px;
+}
+
+.btn-section {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 2px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.btn {
+  border: solid;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.blue {
+  background-color: rgb(32, 162, 255);
+  color: #fff;
+  border-color: rgb(32, 162, 255);
+}
+
+.gray {
+  color: lightgray;
+  border-color: lightgray;
+}
+
+.lilla {
+  background-color: rgb(155, 113, 228);
+  color: #fff;
+}
+.main-section {
+  padding: 40px 50px;
+}
+
+.check-box {
+  width: 22px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgb(100, 192, 169);
+  border-radius: 50%;
+  color: rgb(100, 192, 169);
+}
+
+.x-box {
+  width: 22px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+}
+
+.tag {
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.dropdown {
+  font-size: 30px;
+  vertical-align: sub;
+}
