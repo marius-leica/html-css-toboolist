@@ -49,6 +49,16 @@ section {
   padding: 5px 10px;
 }
 
+.main-section {
+  padding: 40px 50px;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 10px;
+}
+.compiti div {
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
 .blue {
   background-color: rgb(32, 162, 255);
   color: #fff;
@@ -64,26 +74,46 @@ section {
   background-color: rgb(155, 113, 228);
   color: #fff;
 }
-.main-section {
-  padding: 40px 50px;
+
+.green {
+  background-color: rgb(100, 192, 169);
+  color: #fff;
+}
+
+.lime-green {
+  background-color: rgb(176, 201, 38);
+  color: #fff;
+}
+
+.orange {
+  background-color: rgb(242, 157, 50);
+  color: #fff;
+}
+
+.pink {
+  background-color: rgb(216, 98, 161);
+  color: #fff;
 }
 
 .check-box {
-  width: 22px;
   text-align: center;
   vertical-align: middle;
   border: 1px solid rgb(100, 192, 169);
   border-radius: 50%;
   color: rgb(100, 192, 169);
+  padding: 1px;
+  font-size: 10px;
 }
 
 .x-box {
-  width: 22px;
   text-align: center;
   vertical-align: middle;
   border: 1px solid red;
   border-radius: 50%;
   color: red;
+  padding: 1px;
+
+  font-size: 10px;
 }
 
 .tag {
@@ -94,4 +124,16 @@ section {
 .dropdown {
   font-size: 30px;
   vertical-align: sub;
+}
+
+.mb-40px {
+  margin-bottom: 40px;
+}
+
+.mb-10px {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 10px;
 }
